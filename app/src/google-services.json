@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655526654734",
+    "firebase_url": "https://giavangfirebase-720fd.firebaseio.com",
+    "project_id": "giavangfirebase-720fd",
+    "storage_bucket": "giavangfirebase-720fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655526654734:android:3959c4fcaa665eb5",
+        "android_client_info": {
+          "package_name": "com.example.vantrantrucphuong.giavangfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655526654734-0q65ars0d2hv59l05pgr3fnl5pdnc6sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEULefvqj-qRuaJeJ965Qa7zOMHxiQgmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655526654734-0q65ars0d2hv59l05pgr3fnl5pdnc6sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

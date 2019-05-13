@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_thong_tin_khach_hang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vantrantrucphuong.dreamstore.activity.ThongTinKhachHang">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_TTKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:text="Thông tin khách hàng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:weightSum="7"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_weight="1"
+            android:hint="HỌ TÊN"
+            android:id="@+id/edt_Ten"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:hint="ĐỊA CHỈ"
+            android:id="@+id/edt_DiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:hint="SỐ ĐIỆN THOẠI"
+            android:id="@+id/edt_SDT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:hint="EMAIL"
+            android:id="@+id/edt_Email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <LinearLayout
+            android:gravity= "center"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/btn_XacNhan"
+                android:text="Xác nhận"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--spinner sort-->
+    <string-array name="spinner_Sort">
+        <item name="value1">Sort by latest</item>
+        <item name="value2">Sort by ...</item>
+    </string-array>
+
+    <!--spinner sort-->
+    <string-array name="spinner_SoLuong">
+        <item name="value1">1</item>
+        <item name="value2">2</item>
+        <item name="value3">3</item>
+        <item name="value4">4</item>
+        <item name="value5">5</item>
+        <item name="value6">6</item>
+        <item name="value7">7</item>
+        <item name="value8">8</item>
+        <item name="value9">9</item>
+        <item name="value10">10</item>
+    </string-array>
+
+    <!--spinner sort-->
+    <string-array name="spinner_Size">
+        <item name="value1">36</item>
+        <item name="value2">37</item>
+        <item name="value2">38</item>
+        <item name="value2">39</item>
+        <item name="value2">40</item>
+
+    </string-array>
+</resources>

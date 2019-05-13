@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:id="@+id/imgViewSP"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <TextView
+                android:gravity="center"
+                android:text="Ten san pham"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:id="@+id/txtViewTenSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:gravity="center"
+                android:text="Gia"
+                android:textColor="#303030"
+                android:textSize="13sp"
+                android:id="@+id/txtViewGiaSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
